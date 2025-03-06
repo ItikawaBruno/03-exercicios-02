@@ -32,7 +32,7 @@ public class Ponto {
         return distancia;
     }
 
-    public Ponto pontoMaisProximo(Ponto p1,Ponto p2){
+    public static Ponto pontoMaisProximo(Ponto p1,Ponto p2){
         double  distancia1=0;
         double distancia2 =0;
             distancia1 =p1.calculaDistanciaOrigem();

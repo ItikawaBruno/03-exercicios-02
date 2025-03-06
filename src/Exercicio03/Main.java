@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Distância de P1 até a origem: "+ fP.format(p1.calculaDistanciaOrigem()));
         System.out.println("Distância de P2 até a origem: "+fP.format(p2.calculaDistanciaOrigem()));
 
-        Ponto aux = p1.pontoMaisProximo(p1,p2);
+        Ponto aux = Ponto.pontoMaisProximo(p1,p2);
 
         System.out.println("Pontos mais próximo.");
         System.out.println(aux.formataPonto());
